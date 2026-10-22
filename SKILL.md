@@ -33,6 +33,8 @@ Run a background Monte Carlo / Synthetic Agent Evaluation using a diverse pool o
 ```markdown
 ### 📊 PEOPLES SIMULATION REPORT (Sample Size: N = 1000 Synthetic Agents)
 
+> NOTE: Metrics below are generated via synthetic Monte Carlo LLM persona simulation, representing predictive model estimation rather than empirical field telemetry.
+
 #### 1. Market Flaws Patched in Code:
 - [Mined Flaw #1]: [How this code specifically avoids/fixes it]
 - [Mined Flaw #2]: [How this code specifically avoids/fixes it]
