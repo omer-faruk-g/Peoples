@@ -1,6 +1,6 @@
 ---
 name: peoples
-description: Peoples - market-intelligence and multi-agent persona simulation. When a product, module or user-facing feature or code is proposed, identify 3-5 competitors, mine their negative reviews and UX friction, patch those flaws into the current code before delivery, then run a synthetic panel of 100-1000 personas (Tech Savvy, Beginner, Enterprise, Budget-Conscious, Security-Obsessed) scoring usability, value match and deal-breakers, and emit the PEOPLES SIMULATION REPORT with adoption and rejection percentages, top objections and the code upgrade needed for 90%+ adoption. Use when a product, module, app or user-facing feature is proposed or built, when the user asks about competitors, market fit, adoption, conversion or whether it will sell, or says peoples, rakip, pazar testi, satar mı, tutar mı.
+description: Peoples - market-intelligence and persona simulation. Finds 3-5 competitors, mines their negative reviews, patches those flaws into the code before delivery, then scores it with a synthetic panel of 100-1000 personas and emits the PEOPLES SIMULATION REPORT (adoption, top objections, the upgrade needed for 90%+). Use when a product, module, app or user-facing feature is proposed or built, when the user asks about competitors, market fit, adoption, conversion or whether it will sell, or says peoples, rakip, pazar testi, satar mı, tutar mı.
 ---
 
 # SKILL: Peoples (Market-Intelligence & Multi-Agent Persona Simulation)
@@ -16,6 +16,7 @@ When a product, module, or user-facing feature/code is proposed:
 1. **Identify Competitors:** Detect 3–5 existing market alternatives or similar open-source/commercial products.
 2. **Mine Negative Feedback:** Scan/analyze common user complaints, bad reviews, and UX friction points of those competitors (e.g., poor error handling, slow response, complex onboarding, missing edge-case handling).
 3. **Preemptive Code Patching:** Implement concrete fixes for those mined flaws directly inside the current code/architecture *before* outputting the final product.
+   - **Approval Gate (ClaudPer / ClaudeMT):** If these fixes change 2 or more files or more than 150 lines, list them as a plan and wait for the user's approval before patching.
 
 ---
 
